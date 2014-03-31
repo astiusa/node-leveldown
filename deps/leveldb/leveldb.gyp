@@ -65,7 +65,6 @@
       , ['OS != "win"' and 'OS != "freebsd"', {
             'cflags': [
                 '-Wno-sign-compare'
-              , '-Wno-unused-but-set-variable'
             ]
         }]
       , ['OS == "linux"', {
